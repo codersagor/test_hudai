@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+body {
+    background: rgb(12, 9, 29);
+    font-family: poppins;
+}
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border: 3px solid yellow;
+    padding: 10px;
+}
+
+.box {
+    background: yellow;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
